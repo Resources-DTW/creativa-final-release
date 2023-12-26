@@ -112,9 +112,10 @@ const Footer = () => {
                           href="https://maps.app.goo.gl/Xcjgg9eo78VHw89JA"
                           target="_blank"
                         >
-                          31/13, 2nd floor, Burkit Rd, Near Canara{" "}
-                          <br className="d-none d-lg-block" /> Bank, CIT Nagar
-                          East, T. Nagar, Chennai,
+                          #31/13, 2nd floor, Burkit Rd,
+                          <br className="d-none d-lg-block" /> Near Canara Bank,
+                          T. Nagar,
+                          <br className="d-none d-lg-block" /> Chennai,
                           <br className="d-none d-lg-block" /> Tamil Nadu 600017
                         </a>
                       </li>

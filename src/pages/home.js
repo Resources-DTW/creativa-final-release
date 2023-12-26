@@ -200,7 +200,7 @@ const Home = () => {
                       <div className="price-card">
                         <img src={pricesStar} alt="price-img" />
                         <h3 className="plan-title">One Time Plan</h3>
-                        <h3 className="plan-price">₹58,798</h3>
+                        <h3 className="plan-price">₹54,999</h3>
                         <span className="plan-note">*Including GST</span>
                       </div>
                     </Col>
@@ -208,7 +208,7 @@ const Home = () => {
                       <div className="price-card">
                         <img src={pricesStarTwo} alt="price-img" />
                         <h3 className="plan-title">2 Month EMI Plan</h3>
-                        <h3 className="plan-price">₹61,798</h3>
+                        <h3 className="plan-price">₹54,999</h3>
                         <span className="plan-note">*Including GST</span>
                       </div>
                     </Col>
@@ -216,7 +216,7 @@ const Home = () => {
                       <div className="price-card">
                         <img src={pricesStarThree} alt="price-img" />
                         <h3 className="plan-title">3 Month EMI Plan</h3>
-                        <h3 className="plan-price">₹63,798</h3>
+                        <h3 className="plan-price">₹54,999</h3>
                         <span className="plan-note no-margin-btm">
                           *Including GST
                         </span>
