@@ -2,6 +2,7 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 import Counter from "../components/sections/counter";
 import ImageGallery from "../components/sections/image-gallary";
 // import Placement from "../components/sections/placement";
+import { Helmet } from "react-helmet";
 
 import EnrollModal from "../components/enroll-modal";
 
@@ -48,6 +49,21 @@ const AboutUs = () => {
 
   return (
     <div className="body-wrap  overflow-hidden">
+      <Helmet>
+        <title>About Creativa Design Academy | Our Vision & Mission</title>
+        <meta
+          name="description"
+          content="Learn about Creativa Design Academy, where our vision is to empower aspiring designers with excellence in design education."
+        />
+        <meta
+          name="keywords"
+          content="HTML, CSS, JavaScript, design, Creativa, Academy, UI/UX"
+        />
+        <meta
+          name="title"
+          content="About Creativa Design Academy | Our Vision & Mission"
+        />
+      </Helmet>
       <Container>
         <h1 className="about-us-title text-center my-md-5 my-4">
           We're Here to Lead You <br className="d-none d-lg-block" />

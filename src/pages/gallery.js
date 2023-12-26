@@ -26,6 +26,7 @@ import galleryEighteen from "../assets/images/gallery/gallery-18.jpg";
 import galleryNineteen from "../assets/images/gallery/gallery-19.jpg";
 import galleryTwenty from "../assets/images/gallery/gallery-20.jpg";
 import BookaSeat from "../components/sections/book-a-seat";
+import { Helmet } from "react-helmet";
 
 const Gallery = () => {
   const [images] = useState([
@@ -59,6 +60,15 @@ const Gallery = () => {
 
   return (
     <div className="body-wrap overflow-hidden">
+      <Helmet>
+        <title>Creativa Design Academy - Gallery</title>
+        <meta name="description" content="" />
+        <meta
+          name="keywords"
+          content="HTML, CSS, JavaScript, design, Creativa, Academy, UI/UX"
+        />
+        <meta name="title" content="Creativa Design Academy - Gallery" />
+      </Helmet>
       <Container>
         <h1 className="about-us-title text-center my-5">
           Works which got our{" "}

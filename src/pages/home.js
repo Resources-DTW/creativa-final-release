@@ -175,26 +175,26 @@ const Home = () => {
               <img src={dots} alt="dots" className="dots-bottom" />
 
               <Row>
-                <Col xl={5}>
+                <Col xs={{ span: 12, order: 1 }} md={{ span: 6, order: 1 }}>
                   <h2 className="prices-title">Explore Our Pricing Options </h2>
 
                   <p className="prices-desc">
                     We've simplified pricing to make your decision effortless.
                     Choose the plan that suits your journey
                   </p>
-                  <div>
-                    <Button
-                      bsPrefix="btn"
-                      variant="bookaseat"
-                      className="blocks"
-                      onClick={bookMySeat}
-                      style={{ marginTop: 30 }}
-                    >
-                      Enroll Now
-                    </Button>
-                  </div>
                 </Col>
-                <Col xl={7}>
+                <Col xs={{ span: 12, order: 2 }} md={{ span: 0, order: 3 }}>
+                  <Button
+                    bsPrefix="btn"
+                    variant="bookaseat"
+                    className="blocks"
+                    onClick={bookMySeat}
+                    style={{ marginTop: 30 }}
+                  >
+                    Enroll Now
+                  </Button>
+                </Col>
+                <Col xs={{ span: 12, order: 1 }} md={{ span: 6, order: 2 }}>
                   <Row className="my-4">
                     <Col md={4}>
                       <div className="price-card">
