@@ -1307,11 +1307,12 @@ footer {
         button:before {
           width: 24px;
           background: $theme-green;
+          opacity: 1;
         }
       } 
 
       button:before {
-        background: rgba(255, 255, 255, 0.9);    
+        background: rgba(255, 255, 255,1);    
       }
     }
   }

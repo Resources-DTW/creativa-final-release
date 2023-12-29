@@ -1,5 +1,4 @@
 import Counter from "../components/sections/counter";
-import ImageGallery from "../components/sections/image-gallary";
 import Notes from "../assets/images/notes.jpg";
 import UiUxCourse from "../components/sections/ui-ux-course";
 import useCustom from "../hooks/useCustom";

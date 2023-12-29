@@ -1,4 +1,3 @@
-import ImageGallery from "../components/sections/image-gallary";
 import GalleryMain from "../assets/images/gallery-main.jpg";
 import useCustom from "../hooks/useCustom";
 import { useState, useEffect } from "react";
