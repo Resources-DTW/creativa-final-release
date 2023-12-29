@@ -60,12 +60,12 @@ const Footer = () => {
                   <span className="fa-brands fa-instagram"></span>
                 </a>
                 <a
-                  href="https://www.behance.net/creativacademy4"
+                  href="https://www.behance.net/creativa_academy"
                   target="_blank"
                 >
                   <span className="fa-brands fa-behance"></span>
                 </a>
-                <a href="https://dribbble.com/CreativaAcademy" target="_blank">
+                <a href="https://dribbble.com/Creativa_academy" target="_blank">
                   <i class="fa-brands fa-dribbble"></i>
                 </a>
               </div>
@@ -85,10 +85,10 @@ const Footer = () => {
                       <li>
                         <Link to="/about-us">About Us</Link>
                       </li>
-                      <li>
+                      <li style={{ marginTop: -18 }}>
                         <Link to="/our-student-works">Students Work</Link>
                       </li>
-                      <li>
+                      <li style={{ marginTop: -18 }}>
                         <a href={void 0} onClick={bookMySeat}>
                           Book a Demo
                         </a>
@@ -112,11 +112,11 @@ const Footer = () => {
                           href="https://maps.app.goo.gl/Xcjgg9eo78VHw89JA"
                           target="_blank"
                         >
-                          #31/13, 2nd floor, Burkit Rd,
+                          #31/13, 2nd floor, Burkit Road,
                           <br className="d-none d-lg-block" /> Near Canara Bank,
                           T. Nagar,
-                          <br className="d-none d-lg-block" /> Chennai,
-                          <br className="d-none d-lg-block" /> Tamil Nadu 600017
+                          <br className="d-none d-lg-block" /> Chennai, Tamil
+                          Nadu 600017
                         </a>
                       </li>
                     </ul>
@@ -136,7 +136,12 @@ const Footer = () => {
                       id="contactList"
                     >
                       <li>
-                        <a href="tel:+919790782986">+91 97907 82986</a> <br />
+                        <a href="tel:+919790782986">+91 97907 82986</a>
+                      </li>
+                      <li style={{ marginTop: -18 }}>
+                        <a href="tel:+919941557761">+91 99415 57761</a>
+                      </li>
+                      <li style={{ marginTop: -18 }}>
                         <a href="mailto:enquiry@creativa.academy">
                           enquiry@creativa.academy
                         </a>

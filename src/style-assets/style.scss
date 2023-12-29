@@ -658,6 +658,7 @@ color: rgba(255, 255, 255, 0.70);
     margin-right:10px;
       button:before {
         width: 20px;
+        opacity: 1;
       }
     }
   }
@@ -1067,7 +1068,7 @@ footer {
         padding: 16px 28px;
         color: $white;
         &:focus{
-          box-shadow: 0 0 0 0.15rem rgba(223, 254, 3,.25);
+          box-shadow: 0 0 0 0.10rem rgba(255, 255, 255, 0.2);
         }
         
         &::placeholder {

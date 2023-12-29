@@ -5,31 +5,34 @@ import creativeImg_3 from "../assets/images/creative-learnings/img-3.png";
 import creativeImg_4 from "../assets/images/creative-learnings/img-4.png";
 import creativeImg_5 from "../assets/images/creative-learnings/img-5.png";
 import creativeImg_6 from "../assets/images/creative-learnings/img-6.png";
+import Alfaz from "../assets/images/testimonials/alfaz.jpeg";
+import Idyath from "../assets/images/testimonials/idayath.jpeg";
+import Shahul from "../assets/images/testimonials/shahul.png";
 
 const testimonialsObj = [
   {
     testimonialMsg:
       "Creativa Design Academy transformed my outlook on design. The curriculum's hands-on approach empowered me to create meaningful user experiences. The internship opportunity was a game-changer – I learned from experts and gained insights I couldn't have anywhere else. Today, I'm a confident UX designer, and it's all thanks to Creativa.",
-    testimonialImg: "",
+    testimonialImg: Alfaz,
     testimonialID: "1",
+    testimonialName: "Alfaz",
+    testimonialRole: "Student",
   },
   {
     testimonialMsg:
       "Choosing Creativa was a pivotal moment for my career. The instructors' expertise and personalized guidance fueled my growth. I can proudly say I'm not just a UI designer anymore; I'm a problem solver.",
-    testimonialImg: "",
+    testimonialImg: Idyath,
     testimonialID: "2",
+    testimonialName: "Idyath",
+    testimonialRole: "Student",
   },
   {
     testimonialMsg:
       "Creativa Academy was my design turning point. They taught me how to design things people love to use. The internship gave me real work experience. Now I'm confident in my design skills and happy I took this journey.",
-    testimonialImg: "",
+    testimonialImg: Shahul,
     testimonialID: "3",
-  },
-  {
-    testimonialMsg:
-      "As a working professional, I was hesitant to dive into a design program. Creativa's flexibility made it possible, and the results were beyond my expectations. The projects challenged me, and the mentorship fueled my growth. Now, I confidently approach design challenges, and I credit my success to Creativa's holistic approach to education.",
-    testimonialImg: "",
-    testimonialID: "4",
+    testimonialName: "Shahul",
+    testimonialRole: "Student",
   },
 ];
 

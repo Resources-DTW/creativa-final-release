@@ -109,7 +109,10 @@ const Gallery = () => {
           <Row>
             {images.map((img, i) => (
               <Col lg={6} key={i}>
-                <div className="studen-work-card">
+                <div
+                  className="studen-work-card"
+                  style={{ marginBottom: 15, marginTop: 15 }}
+                >
                   <div className="img-1">
                     <div
                       style={{ backgroundImage: `url(${img})` }}

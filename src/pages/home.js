@@ -189,7 +189,6 @@ const Home = () => {
                     variant="bookaseat"
                     className="blocks"
                     onClick={bookMySeat}
-                    style={{ marginTop: 30 }}
                   >
                     Enroll Now
                   </Button>
@@ -417,13 +416,15 @@ const Home = () => {
                         >
                           <div className="testimonial-user text-center">
                             <img
-                              src={testimonialOne}
+                              src={testimonialItem.testimonialImg}
                               className="user-img"
                               alt="testimonial-img"
                             />
-                            <h2 className="user-name">ahmed elsayed</h2>
+                            <h2 className="user-name">
+                              {testimonialItem.testimonialName}
+                            </h2>
                             <p className="user-designation">
-                              UI/UX Designer at Nitro
+                              {testimonialItem.testimonialRole}
                             </p>
                           </div>
                         </Col>

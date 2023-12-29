@@ -5,8 +5,6 @@ import studentWorkFour from "../../assets/images/student-works/my-student-work-4
 import studentWorkFive from "../../assets/images/student-works/my-student-work-5.png";
 import studentWorkSix from "../../assets/images/student-works/my-student-work-6.png";
 
-import allCaseStudy from "../../assets/Casestudy.zip";
-
 import LeafyBuy from "../../assets/Casestudy/LeafyBuy.pdf";
 import ELearning from "../../assets/Casestudy/E-Learning-UI-UX-CaseStudy.pdf";
 import Bikemend from "../../assets/Casestudy/Bikemend-UX-CaseStudy.pdf";
@@ -196,7 +194,11 @@ const OurStudentWorksSection = ({ headingDetails }) => {
         </Col>
       </Row>
       <div className="text-center my-md-4">
-        <a href={allCaseStudy} download>
+        <a
+          href="https://www.behance.net/creativa_academy"
+          rel="noreferrer"
+          target="_blank"
+        >
           <Button
             bsPrefix="home"
             variant="button"
