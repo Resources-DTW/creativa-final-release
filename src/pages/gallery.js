@@ -79,7 +79,17 @@ const Gallery = () => {
         </h1>
         <div className="pt-4 position-relative">
           <div className="design-circle-upcoming-batch position-absolute"></div>
-          <ImageGallery img={GalleryMain} />
+          <img
+            src={GalleryMain}
+            style={{
+              height: "60%",
+              width: "100%",
+              objectFit: "contain",
+              borderRadius: 20,
+            }}
+            alt="Notes"
+          />
+          {/* <ImageGallery img={GalleryMain} /> */}
         </div>
       </Container>
 
