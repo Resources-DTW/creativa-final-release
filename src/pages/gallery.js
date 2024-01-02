@@ -1,4 +1,4 @@
-import GalleryMain from "../assets/images/gallery-main.jpg";
+import GalleryMain from "../assets/images/gallery-main.png";
 import useCustom from "../hooks/useCustom";
 import { useState, useEffect } from "react";
 import EnrollModal from "../components/enroll-modal";

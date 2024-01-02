@@ -167,9 +167,7 @@ const AboutUs = () => {
                         className="founder-img"
                       />
                       <h2 className="founder-name">Mohammed Sulaiman</h2>
-                      <p className="founder-designation">
-                        Co-Founder, Lead Mentor
-                      </p>
+                      <p className="founder-designation">Lead Mentor</p>
                     </Col>
                   </Row>
                 </Col>

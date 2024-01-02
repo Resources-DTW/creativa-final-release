@@ -1,5 +1,5 @@
 import Counter from "../components/sections/counter";
-import Notes from "../assets/images/notes.jpg";
+import Notes from "../assets/images/notes.png";
 import UiUxCourse from "../components/sections/ui-ux-course";
 import useCustom from "../hooks/useCustom";
 import { useEffect } from "react";
