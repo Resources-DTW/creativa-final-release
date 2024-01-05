@@ -16,7 +16,7 @@ const testimonialsObj = [
     testimonialImg: Alfaz,
     testimonialID: "1",
     testimonialName: "Alfaz",
-    testimonialRole: "UI UX Designer, Bizcraft Pvt.Ltd",
+    testimonialRole: "UI UX Designer, Bizcraft",
   },
   {
     testimonialMsg:
@@ -32,8 +32,7 @@ const testimonialsObj = [
     testimonialImg: Shahul,
     testimonialID: "3",
     testimonialName: "Shahul",
-    testimonialRole:
-      "UI UX Designer, Digital Techworks Intractive Solutions Pvt.Ltd",
+    testimonialRole: "UI UX Designer, Digital Techworks",
   },
 ];
 
