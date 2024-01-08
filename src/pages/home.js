@@ -105,6 +105,7 @@ const Home = () => {
                   </h1>
                   <p className="home-desc">
                     3 months learning program and 2 Months of internship at
+                    <br />
                     Digital Techworks
                   </p>
                   <Button
