@@ -113,7 +113,7 @@ const Footer = () => {
                         >
                           #31/13, 2nd floor, Burkit Road,
                           <br /> Near Canara Bank, T. Nagar,
-                          <br /> Chennai, Tamil Nadu 600017
+                          <br /> Chennai - 600017
                         </a>
                       </li>
                     </ul>
@@ -152,7 +152,7 @@ const Footer = () => {
         </Container>
       </div>
       <div className="footer-rights-sections text-center">
-        <p>&copy; 2023 Creativa Design Academy. All rights reserved</p>
+        <p>&copy; 2024 Creativa Design Academy. All rights reserved</p>
       </div>
     </footer>
   );
