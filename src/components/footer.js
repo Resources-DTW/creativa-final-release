@@ -77,7 +77,7 @@ const Footer = () => {
                     className="footer-list-title"
                     onClick={() => setOpenService(!openService)}
                   >
-                    Quick Links{" "}
+                    Quick Links
                     <i className="fa-solid fa-chevron-down float-right d-lg-none d-inline"></i>
                   </h1>
                   <Collapse in={openService}>
@@ -101,22 +101,19 @@ const Footer = () => {
                     className="footer-list-title"
                     onClick={() => setOpenCareer(!openCareer)}
                   >
-                    Address{" "}
+                    Address
                     <i className="fa-solid fa-chevron-down  float-right d-lg-none d-inline"></i>
                   </h1>
                   <Collapse in={openCareer}>
                     <ul className="list-unstyled footer-list" id="careersList">
                       <li>
-                        {" "}
                         <a
                           href="https://maps.app.goo.gl/Xcjgg9eo78VHw89JA"
                           target="_blank"
                         >
                           #31/13, 2nd floor, Burkit Road,
-                          <br className="d-none d-lg-block" /> Near Canara Bank,
-                          T. Nagar,
-                          <br className="d-none d-lg-block" /> Chennai, Tamil
-                          Nadu 600017
+                          <br /> Near Canara Bank, T. Nagar,
+                          <br /> Chennai, Tamil Nadu 600017
                         </a>
                       </li>
                     </ul>
@@ -127,7 +124,7 @@ const Footer = () => {
                     className="footer-list-title"
                     onClick={() => setOpenContact(!openContact)}
                   >
-                    Contact With{" "}
+                    Contact With
                     <i className="fa-solid fa-chevron-down  float-right d-lg-none d-inline"></i>
                   </h1>
                   <Collapse in={openContact}>
