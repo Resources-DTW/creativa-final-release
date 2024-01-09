@@ -12,7 +12,7 @@ const Enrollment = ({ bookMySeat }) => {
         <img src={dots} alt="dots" className="dots-bottom" />
 
         <h2 className="enrollment-title">
-          Wanna learn UI/UX Design <br /> like a Pro!
+          Interested in mastering UI/UX Design <br /> like a professional?
         </h2>
         <Button bsPrefix="btn" variant="bookaseat" onClick={bookMySeat}>
           Enroll Now
