@@ -36,11 +36,10 @@ const UpcomingBatches = () => {
       </Helmet>
       <Container>
         <h1 className="about-us-title text-center my-5">
-          Join the Next Wave:{" "}
+          Join the Next Wave:
           <span className="theme-color-green">
-            {" "}
             Upcoming <br className="d-none d-lg-block" /> Batches
-          </span>{" "}
+          </span>
         </h1>
         <div className="pt-4 position-relative">
           <div className="design-circle-upcoming-batch position-absolute"></div>
@@ -79,7 +78,7 @@ const UpcomingBatches = () => {
             <h1 className="creative-learning-title">Upcoming Batches</h1>
             <p className="creative-learning-desc">
               Plan your design journey! Check here to see our upcoming batches
-              and secure your spot.{" "}
+              and secure your spot.
             </p>
           </div>
 

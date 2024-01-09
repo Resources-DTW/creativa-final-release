@@ -1,15 +1,13 @@
-
-import location from '../assets/images/location.svg';
-import moniter from '../assets/images/moniter.svg';
-import languages from '../assets/images/languages.svg';
-import clock from '../assets/images/clock.svg';
-import calendar from '../assets/images/calendar.svg';
-import user from '../assets/images/user.svg';
+import location from "../assets/images/location.svg";
+import moniter from "../assets/images/moniter.svg";
+import languages from "../assets/images/languages.svg";
+import clock from "../assets/images/clock.svg";
+import calendar from "../assets/images/calendar.svg";
+import user from "../assets/images/user.svg";
 
 import { Col, Row } from "react-bootstrap";
 
 const BatchesCard = () => {
-
   return (
     <>
       {/* Card Start  */}
@@ -18,11 +16,11 @@ const BatchesCard = () => {
           <Col>
             <div className="calendar-card">
               <h1 className="date">01</h1>
-              <span className="month">January</span>
+              <span className="month">February</span>
             </div>
           </Col>
           <Col xl={10} lg={10} className="d-flex align-items-center">
-            <Row >
+            <Row>
               <Col xl={5} lg={12} className="d-flex align-items-center">
                 <h1 className="title">UX UI Design Course Program</h1>
               </Col>
@@ -53,18 +51,18 @@ const BatchesCard = () => {
                       <span className="ms-3">Slots Left - 05</span>
                     </p>
                   </Col>
-                 
+
                   <Col md={6}>
                     <p className="course-list mt-0 mb-3">
                       <img src={location} alt="location" />
                       <span className="ms-3">T.Nagar, Chennai</span>
                     </p>
                   </Col>
-                  
+
                   <Col md={6}>
                     <p className="course-list mt-0 mb-md-0">
                       <img src={moniter} alt="Mode-of-course" />
-                      <span className="ms-3">Online Live</span>
+                      <span className="ms-3">Offline</span>
                     </p>
                   </Col>
                 </Row>
@@ -81,11 +79,11 @@ const BatchesCard = () => {
           <Col>
             <div className="calendar-card">
               <h1 className="date">15</h1>
-              <span className="month">January</span>
+              <span className="month">February</span>
             </div>
           </Col>
           <Col xl={10} lg={10} className="d-flex align-items-center">
-            <Row >
+            <Row>
               <Col xl={5} lg={12} className="d-flex align-items-center">
                 <h1 className="title">UX UI Design Course Program</h1>
               </Col>
@@ -116,18 +114,18 @@ const BatchesCard = () => {
                       <span className="ms-3">Slots Left - 05</span>
                     </p>
                   </Col>
-                 
+
                   <Col md={6}>
                     <p className="course-list mt-0 mb-3">
                       <img src={location} alt="location" />
                       <span className="ms-3">T.Nagar, Chennai</span>
                     </p>
                   </Col>
-                  
+
                   <Col md={6}>
                     <p className="course-list mt-0 mb-md-0">
                       <img src={moniter} alt="Mode-of-course" />
-                      <span className="ms-3">Online Live</span>
+                      <span className="ms-3">Offline</span>
                     </p>
                   </Col>
                 </Row>
@@ -143,12 +141,12 @@ const BatchesCard = () => {
         <Row>
           <Col>
             <div className="calendar-card">
-              <h1 className="date">29</h1>
-              <span className="month">January</span>
+              <h1 className="date">01</h1>
+              <span className="month">March</span>
             </div>
           </Col>
           <Col xl={10} lg={10} className="d-flex align-items-center">
-            <Row >
+            <Row>
               <Col xl={5} lg={12} className="d-flex align-items-center">
                 <h1 className="title">UX UI Design Course Program</h1>
               </Col>
@@ -179,18 +177,18 @@ const BatchesCard = () => {
                       <span className="ms-3">Slots Left - 05</span>
                     </p>
                   </Col>
-                 
+
                   <Col md={6}>
                     <p className="course-list mt-0 mb-3">
                       <img src={location} alt="location" />
                       <span className="ms-3">T.Nagar, Chennai</span>
                     </p>
                   </Col>
-                  
+
                   <Col md={6}>
                     <p className="course-list mt-0 mb-md-0">
                       <img src={moniter} alt="Mode-of-course" />
-                      <span className="ms-3">Online Live</span>
+                      <span className="ms-3">Offline</span>
                     </p>
                   </Col>
                 </Row>
@@ -201,17 +199,17 @@ const BatchesCard = () => {
       </div>
       {/* Card end */}
 
-     {/* Card Start  */}
-     <div className="upcoming-batches-card">
+      {/* Card Start  */}
+      <div className="upcoming-batches-card">
         <Row>
           <Col>
             <div className="calendar-card">
-              <h1 className="date">12</h1>
-              <span className="month">February</span>
+              <h1 className="date">15</h1>
+              <span className="month">March</span>
             </div>
           </Col>
           <Col xl={10} lg={10} className="d-flex align-items-center">
-            <Row >
+            <Row>
               <Col xl={5} lg={12} className="d-flex align-items-center">
                 <h1 className="title">UX UI Design Course Program</h1>
               </Col>
@@ -242,18 +240,18 @@ const BatchesCard = () => {
                       <span className="ms-3">Slots Left - 05</span>
                     </p>
                   </Col>
-                 
+
                   <Col md={6}>
                     <p className="course-list mt-0 mb-3">
                       <img src={location} alt="location" />
                       <span className="ms-3">T.Nagar, Chennai</span>
                     </p>
                   </Col>
-                  
+
                   <Col md={6}>
                     <p className="course-list mt-0 mb-md-0">
                       <img src={moniter} alt="Mode-of-course" />
-                      <span className="ms-3">Online Live</span>
+                      <span className="ms-3">Offline</span>
                     </p>
                   </Col>
                 </Row>
@@ -264,8 +262,7 @@ const BatchesCard = () => {
       </div>
       {/* Card end */}
     </>
-  )
-
+  );
 };
 
 export default BatchesCard;
