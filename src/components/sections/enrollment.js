@@ -1,7 +1,6 @@
 import { Container, Button } from "react-bootstrap";
 import dots from "../../assets/images/dots.png";
 import dotsLarge from "../../assets/images/dots-large.png";
-import { Link } from "react-router-dom";
 
 const Enrollment = ({ bookMySeat }) => {
   return (
