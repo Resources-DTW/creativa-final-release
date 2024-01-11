@@ -88,7 +88,7 @@ const AboutUs = () => {
           <div className="text-md-center">
             <h1 className="creative-learning-title">Why Choose Creativa? </h1>
             <p className="creative-learning-desc">
-              At Creativa, we're not just a design academy; we're a gateway to
+              At Creativa, we're not just a design academy. We're a gateway to
               your creative potential.
             </p>
           </div>

@@ -63,7 +63,7 @@ const OurStudentWorks = () => {
           <h1 className="about-us-title text-center my-5">
             Showcasing Student Excellence:{" "}
             <span className="theme-color-green">
-              Here’s What Got Our Students placed
+              Here’s What Got Our Students Placed
             </span>
           </h1>
           <div className="pt-4">
