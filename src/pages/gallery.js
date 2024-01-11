@@ -96,14 +96,14 @@ const Gallery = () => {
         <Container>
           {/* className="my-5 pt-5" */}
           <h1 className="student-work-title mb-4 pt-5 pt-md-0">
-            {" "}
-            Moments of Joy through work{" "}
+            Moments Of Joy Through Work
           </h1>
           <p className="student-work-desc pb-5">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duoLorem
-            ipsum
+            Embrace the moments of joy that come from transforming your creative
+            visions into impactful digital designs.
+            <br /> Your learning experience is tailored to make every step of
+            the design process
+            <br /> a source of satisfaction and delight.
           </p>
 
           <Row>
