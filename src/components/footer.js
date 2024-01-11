@@ -85,10 +85,10 @@ const Footer = () => {
                       <li>
                         <Link to="/about-us">About Us</Link>
                       </li>
-                      <li style={{ marginTop: -18 }}>
+                      <li style={{ marginTop: -8 }}>
                         <Link to="/our-student-works">Students Work</Link>
                       </li>
-                      <li style={{ marginTop: -18 }}>
+                      <li style={{ marginTop: -8 }}>
                         <a href={void 0} onClick={bookMySeat}>
                           Book a Demo
                         </a>
@@ -135,10 +135,10 @@ const Footer = () => {
                       <li>
                         <a href="tel:+917904277198">+91 79042 77198</a>
                       </li>
-                      <li style={{ marginTop: -18 }}>
+                      <li style={{ marginTop: -8 }}>
                         <a href="tel:+919884660051">+91 98846 60051</a>
                       </li>
-                      <li style={{ marginTop: -18 }}>
+                      <li style={{ marginTop: -8 }}>
                         <a href="mailto:enquiry@creativa.academy">
                           enquiry@creativa.academy
                         </a>
