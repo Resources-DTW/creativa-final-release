@@ -101,12 +101,12 @@ const Home = () => {
               <div className="home-content-section">
                 <div>
                   <h1 className="home-title">
-                    Learn UX UI Design Form Industry Experts
+                    Elevate your UX UI Design journey with industry experts.
                   </h1>
                   <p className="home-desc">
-                    3 months learning program and 2 Months of internship at
-                    <br />
-                    Digital Techworks
+                    Unlock your potential in the exciting world of UI and UX
+                    design with our immersive 3-month learning program. 2 Months
+                    of internship at Digital Techworks
                   </p>
                   <Button
                     bsPrefix="home"
@@ -238,8 +238,10 @@ const Home = () => {
                 Mastering User-Centric Design: Our UI/UX Syllabus
               </h1>
               <p className="course-syllabus-desc pb-md-5 pb-3">
-                Regular updates for both offline and online classes are posted
-                in this section.
+                Dive into the world of user-centric design with our
+                comprehensive UI/UX syllabus. From foundational principles to
+                advanced techniques, our curriculum is meticulously crafted to
+                equip you with the skills demanded by the industry.
               </p>
 
               <Row>
