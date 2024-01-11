@@ -30,7 +30,7 @@ const BookaSeat = ({ handleShow }) => {
                 className="blocks"
                 onClick={handleShow}
               >
-                Book a seat
+                Book Your Seat
               </Button>
             </div>
           </Col>

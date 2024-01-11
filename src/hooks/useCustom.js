@@ -209,7 +209,7 @@ const ourStudentsWorkCounter = [
   {
     id: 4,
     value: 20,
-    title: "ECutting-Edge Tools and Resources",
+    title: "Cutting-Edge Tools and Resources",
   },
 ];
 
