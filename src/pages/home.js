@@ -9,7 +9,6 @@ import pricesStar from "../assets/images/prices-star.png";
 import pricesStarTwo from "../assets/images/price-star-two.png";
 import pricesStarThree from "../assets/images/price-star-three.png";
 
-import testimonialOne from "../assets/images/testimonials/testimonial-1.png";
 import testimonialIcon from "../assets/images/testimonials/testimonial-icon.png";
 import ImageGallery from "../components/sections/image-gallary";
 import Counter from "../components/sections/counter";
@@ -106,7 +105,18 @@ const Home = () => {
                   <p className="home-desc">
                     Unlock your potential in the exciting world of UI and UX
                     design with our immersive 3-month learning program. 2 Months
-                    of internship at Digital Techworks
+                    of internship at{" "}
+                    <a
+                      style={{
+                        textDecoration: "none",
+                        color: "white",
+                      }}
+                      href="https://digitaltechworks.com/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Digital Techworks
+                    </a>
                   </p>
                   <Button
                     bsPrefix="home"

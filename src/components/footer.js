@@ -40,32 +40,44 @@ const Footer = () => {
               <div className="social-media-list mb-5">
                 <a
                   href="https://www.facebook.com/creativadesignacademy"
+                  rel="noreferrer"
                   target="_blank"
                 >
                   <span className="fa-brands fa-facebook-f"></span>
                 </a>
                 <a
                   href="https://www.linkedin.com/company/creativa-design-academy/"
+                  rel="noreferrer"
                   target="_blank"
                 >
                   <span className="fa-brands fa-linkedin-in"></span>
                 </a>
-                <a href="https://twitter.com/creativadesigna" target="_blank">
+                <a
+                  href="https://twitter.com/creativadesigna"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   <span className="fa-brands fa-x-twitter"></span>
                 </a>
                 <a
                   href="https://www.instagram.com/creativadesign.academy/"
+                  rel="noreferrer"
                   target="_blank"
                 >
                   <span className="fa-brands fa-instagram"></span>
                 </a>
                 <a
                   href="https://www.behance.net/creativa_academy"
+                  rel="noreferrer"
                   target="_blank"
                 >
                   <span className="fa-brands fa-behance"></span>
                 </a>
-                <a href="https://dribbble.com/Creativa_academy" target="_blank">
+                <a
+                  href="https://dribbble.com/Creativa_academy"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   <i class="fa-brands fa-dribbble"></i>
                 </a>
               </div>
@@ -108,8 +120,9 @@ const Footer = () => {
                     <ul className="list-unstyled footer-list" id="careersList">
                       <li>
                         <a
-                          href="https://maps.app.goo.gl/Xcjgg9eo78VHw89JA"
+                          href="https://maps.app.goo.gl/NdzYoHwFvJ5fhnHUA"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           #31/13, 2nd floor, Burkit Road,
                           <br /> Near Canara Bank, T. Nagar,
