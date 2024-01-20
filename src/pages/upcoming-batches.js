@@ -10,19 +10,19 @@ import BookaSeat from "../components/sections/book-a-seat";
 import { Helmet } from "react-helmet";
 
 const UpcomingBatches = () => {
-  // useEffect(() => {
-  //   window.scrollTo(0, 0);
-  // }, []);
-
   useEffect(() => {
-    const middleDiv = document.getElementById("upcoming");
-    if (middleDiv) {
-      const middleDivOffset = middleDiv.offsetTop;
-      const windowHeight = window.innerHeight;
-      const scrollTo = middleDivOffset - windowHeight / 2;
-      window.scrollTo(0, scrollTo);
-    }
+    window.scrollTo(0, 1520);
   }, []);
+
+  // useEffect(() => {
+  //   const middleDiv = document.getElementById("upcoming");
+  //   if (middleDiv) {
+  //     const middleDivOffset = middleDiv.offsetTop;
+  //     const windowHeight = window.innerHeight;
+  //     const scrollTo = middleDivOffset - windowHeight / 2;
+  //     window.scrollTo(0, scrollTo);
+  //   }
+  // }, []);
 
   const { show, handleClose, handleShow, bookMySeat, upComingBatchesCounter } =
     useCustom();
@@ -74,8 +74,8 @@ const UpcomingBatches = () => {
         </div>
       </section>
 
-      <section className="section">
-        <div className="position-relative" id="upcoming">
+      <section className="section" id="upcoming">
+        <div className="position-relative">
           <div className="design-circle-about-us-counter position-absolute"></div>
           {/* UI/UX Design Course */}
           <UiUxCourse bookMySeat={bookMySeat} />
