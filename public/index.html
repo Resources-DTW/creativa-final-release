@@ -81,21 +81,58 @@
 
       gtag("config", "G-D11YLCNGE3");
     </script>
-    <!--Start of Tawk.to Script-->
-    <script type="text/javascript">
-      var Tawk_API = Tawk_API || {},
-        Tawk_LoadStart = new Date();
-      (function () {
-        var s1 = document.createElement("script"),
-          s0 = document.getElementsByTagName("script")[0];
-        s1.async = true;
-        s1.src = "https://embed.tawk.to/659cf3ea8d261e1b5f51080c/1hjmhhj6t";
-        s1.charset = "UTF-8";
-        s1.setAttribute("crossorigin", "*");
-        s0.parentNode.insertBefore(s1, s0);
-      })();
+    <script
+      type="text/javascript"
+      src="https://chatterpal.me/build/js/chatpal.js?8.3"
+      integrity="sha384-+YIWcPZjPZYuhrEm13vJJg76TIO/g7y5B14VE35zhQdrojfD9dPemo7q6vnH44FR"
+      crossorigin="anonymous"
+      data-cfasync="false"
+    ></script>
+    <script>
+      var chatPal = new ChatPal({
+        embedId: "DJZY9YYuAPnf",
+        remoteBaseUrl: "https://chatterpal.me/",
+        version: "8.3",
+      });
     </script>
-    <!--End of Tawk.to Script-->
+    <script>
+      var url =
+        "https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?32326";
+      var s = document.createElement("script");
+      s.type = "text/javascript";
+      s.async = true;
+      s.src = url;
+      var options = {
+        enabled: true,
+        chatButtonSetting: {
+          backgroundColor: "#4dc247",
+          ctaText: "",
+          borderRadius: "50",
+          marginLeft: "25",
+          marginBottom: "25",
+          marginRight: "25",
+          position: "left",
+        },
+        brandSetting: {
+          brandName: "Creativa Academy",
+          brandSubTitle: "Typically replies within a hour",
+          brandImg:
+            "https://www.creativa.academy/static/media/creativa-logo.00e9c2b65ba53a1a016dcd9c65afe6fc.svg",
+          welcomeText: "Hi There!\nHow Can I help you?",
+          messageText: "Hello, I have a question about {{page_link}}",
+          backgroundColor: "#cee531",
+          ctaText: "Start Chat",
+          borderRadius: "25",
+          autoShow: false,
+          phoneNumber: "919884660051",
+        },
+      };
+      s.onload = function () {
+        CreateWhatsappChatWidget(options);
+      };
+      var x = document.getElementsByTagName("script")[0];
+      x.parentNode.insertBefore(s, x);
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
