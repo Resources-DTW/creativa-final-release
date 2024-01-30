@@ -20,7 +20,7 @@ const BookaSeat = ({ handleShow }) => {
 
             <p className="Enroll-timing-details mb-md-5 mb-4">
               {" "}
-              <img src={calendarBlack} alt="calendar-black" /> 24 Jan , 02.00 PM
+              <img src={calendarBlack} alt="calendar-black" /> 3 Feb , 02.00 PM
               to 03.00 PM
             </p>
             <div>
