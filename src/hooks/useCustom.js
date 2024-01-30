@@ -28,7 +28,7 @@ const testimonialsObj = [
   },
   {
     testimonialMsg:
-      "Creativa Academy was my design turning point. They taught me how to design things people love to use. The internship gave me real work experience. Now I'm confident in my design skills and happy I took this journey.",
+      "Creativa Design Academy was my design turning point. They taught me how to design things people love to use. The internship gave me real work experience. Now I'm confident in my design skills and happy I took this journey.",
     testimonialImg: Shahul,
     testimonialID: "3",
     testimonialName: "Shahul",
