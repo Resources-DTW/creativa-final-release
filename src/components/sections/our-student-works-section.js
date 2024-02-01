@@ -5,13 +5,13 @@ import studentWorkFour from "../../assets/images/student-works/my-student-work-4
 import studentWorkFive from "../../assets/images/student-works/my-student-work-5.png";
 import studentWorkSix from "../../assets/images/student-works/my-student-work-6.png";
 
-import LeafyBuy from "../../assets/Casestudy/LeafyBuy.pdf";
-import ELearning from "../../assets/Casestudy/E-Learning-UI-UX-CaseStudy.pdf";
-import Bikemend from "../../assets/Casestudy/Bikemend-UX-CaseStudy.pdf";
+// import LeafyBuy from "../../assets/Casestudy/LeafyBuy.pdf";
+// import ELearning from "../../assets/Casestudy/E-Learning-UI-UX-CaseStudy.pdf";
+// import Bikemend from "../../assets/Casestudy/Bikemend-UX-CaseStudy.pdf";
 
-import FurniCart from "../../assets/Casestudy/Furni-Cart-Casestudy.pdf";
-import Travelapp from "../../assets/Casestudy/Travel-app-casestudy.pdf";
-import easypay from "../../assets/Casestudy/UPI-Payement-UI-UX-CaseStudy.pdf";
+// import FurniCart from "../../assets/Casestudy/Furni-Cart-Casestudy.pdf";
+// import Travelapp from "../../assets/Casestudy/Travel-app-casestudy.pdf";
+// import easypay from "../../assets/Casestudy/UPI-Payement-UI-UX-CaseStudy.pdf";
 
 import { Col, Container, Row, Button } from "react-bootstrap";
 
@@ -32,7 +32,11 @@ const OurStudentWorksSection = ({ headingDetails }) => {
         <Col lg={6}>
           <div className="studen-work-card mb-5">
             <div className="img-1">
-              <a href={LeafyBuy} target="_blank" rel="noreferrer">
+              <a
+                href="https://www.behance.net/gallery/187425743/Leafy-Buy-Plant-App-UIUX-Case-Study"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <div
                   style={{ backgroundImage: `url(${studentWorkOne})` }}
                   className="student-card-img img-1"
@@ -59,7 +63,11 @@ const OurStudentWorksSection = ({ headingDetails }) => {
 
           <div className="studen-work-card mb-5">
             <div className="img-3">
-              <a href={ELearning} target="_blank" rel="noreferrer">
+              <a
+                href="https://www.behance.net/gallery/187424761/Edu-Connect-E-Learning-App-UIUX-Case-Study"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <div
                   style={{ backgroundImage: `url(${studentWorkThree})` }}
                   className="student-card-img img-3"
@@ -86,7 +94,11 @@ const OurStudentWorksSection = ({ headingDetails }) => {
 
           <div className="studen-work-card mb-5">
             <div className="img-3">
-              <a href={Bikemend} target="_blank" rel="noreferrer">
+              <a
+                href="https://www.behance.net/gallery/187439453/BikeMend-Motor-Services-UX-UI-Design-Case-Study"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <div
                   style={{ backgroundImage: `url(${studentWorkFive})` }}
                   className="student-card-img img-3"
@@ -102,7 +114,7 @@ const OurStudentWorksSection = ({ headingDetails }) => {
               </a>
             </div>
             <h2 className="student-card-title my-md-4">
-              BikeMent - Bike Services App{" "}
+              BikeMent - Bike Services App
             </h2>
             <p className="student-card-desc">
               The Bike Service Booking Mobile App is a platform designed to make
@@ -113,7 +125,11 @@ const OurStudentWorksSection = ({ headingDetails }) => {
         <Col lg={6}>
           <div className="studen-work-card mb-5">
             <div className="img-2">
-              <a href={FurniCart} target="_blank" rel="noreferrer">
+              <a
+                href="https://www.behance.net/gallery/187439801/Furni-Cart-Furniture-App-UX-UI-Case-Study"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <div
                   style={{ backgroundImage: `url(${studentWorkTwo})` }}
                   className="student-card-img img-2"
@@ -139,7 +155,11 @@ const OurStudentWorksSection = ({ headingDetails }) => {
 
           <div className="studen-work-card mb-5">
             <div className="img-4">
-              <a href={Travelapp} target="_blank" rel="noreferrer">
+              <a
+                href="https://www.behance.net/gallery/187424485/Travel-Planner-Travel-Application-UIUX-Case-Study"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <div
                   style={{ backgroundImage: `url(${studentWorkFour})` }}
                   className="student-card-img img-4"
@@ -166,7 +186,11 @@ const OurStudentWorksSection = ({ headingDetails }) => {
 
           <div className="studen-work-card mb-5">
             <div className="img-4">
-              <a href={easypay} target="_blank" rel="noreferrer">
+              <a
+                href="https://www.behance.net/gallery/187439239/Easy-Pay-UPI-Payment-App-UI-UX-Case-Study"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <div
                   style={{ backgroundImage: `url(${studentWorkSix})` }}
                   className="student-card-img img-4"
