@@ -23,8 +23,8 @@ const testimonialsObj = [
       "Choosing Creativa was a pivotal moment for my career. The instructors' expertise and personalized guidance fueled my growth. I can proudly say I'm not just a UI designer anymore; I'm a problem solver.",
     testimonialImg: Idyath,
     testimonialID: "2",
-    testimonialName: "Idyath",
-    testimonialRole: "UI UX Designer, Metrix",
+    testimonialName: "Idayathullah",
+    testimonialRole: "UI UX Designer, Digital Techworks",
   },
   {
     testimonialMsg:
@@ -32,7 +32,7 @@ const testimonialsObj = [
     testimonialImg: Shahul,
     testimonialID: "3",
     testimonialName: "Shahul",
-    testimonialRole: "UI UX Designer, Digital Techworks",
+    testimonialRole: "UI UX Designer, Metrix",
   },
 ];
 
