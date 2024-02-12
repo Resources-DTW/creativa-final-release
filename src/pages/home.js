@@ -41,8 +41,26 @@ import orbiting from "../assets/images/orbiting-design.svg";
 import { useEffect } from "react";
 import BookaSeat from "../components/sections/book-a-seat";
 import Faq from "../components/sections/faq";
+import axios from "axios";
 
 const Home = () => {
+  const [leads, setLeads] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const res = await axios.get(process.env.STRAPI_URL + "/leads", {
+          headers: { Authorization: "bearer " + process.env.STRAPI_API },
+        });
+        setLeads(res.data.data);
+        console.log(res);
+      } catch (error) {
+        console.log(error);
+      }
+    };
+    fetchData();
+  }, []);
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);

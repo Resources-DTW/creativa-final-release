@@ -2,9 +2,10 @@ import Modal from "react-bootstrap/Modal";
 import Form from "react-bootstrap/Form";
 import { Col, Container, Row, Button } from "react-bootstrap";
 import { useState, useRef, useEffect } from "react";
-import emailjs from "@emailjs/browser";
+// import emailjs from "@emailjs/browser";
 import syllabusPdf from "../assets/Creativa-UI-UX-Syllabus-v2.pdf";
 import Loader from "./sections/loader";
+import axios from "axios";
 
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -13,13 +14,14 @@ const formSchema = {
   name: "",
   email: "",
   mobileNumber: "",
+  type: "ENROLL",
 };
 
-const secrets = {
-  SERVICE_ID: "service_kgoqz33",
-  TEMPLATE_ID: "template_sfhgaf8",
-  PUBLIC_KEY: "Yb1rq0R_Ktx0LqSsK",
-};
+// const secrets = {
+//   SERVICE_ID: "service_kgoqz33",
+//   TEMPLATE_ID: "template_sfhgaf8",
+//   PUBLIC_KEY: "Yb1rq0R_Ktx0LqSsK",
+// };
 
 const EnrollModal = (props) => {
   const form = useRef();
@@ -42,31 +44,30 @@ const EnrollModal = (props) => {
         // syllabusPdf
         downloadURI(syllabusPdf, "Creativa-UI-UX-Syllabus-v2.pdf");
       }
-
-      emailjs
-        .sendForm(
-          secrets.SERVICE_ID,
-          secrets.TEMPLATE_ID,
-          form.current,
-          secrets.PUBLIC_KEY
-        )
-        .then(
-          (result) => {
-            toast.success("Successfully Sent");
-            setIsLoading(false);
-            console.log(result.text);
-            setEnrollment(formSchema);
-            setValidationError(formSchema);
-            props.onHide();
-          },
-          (error) => {
-            toast.error("Something went wrong please try again later", {
-              position: toast.POSITION.TOP_CENTER,
-            });
-            setIsLoading(false);
-            console.log(error.text);
-          }
-        );
+      // emailjs
+      //   .sendForm(
+      //     secrets.SERVICE_ID,
+      //     secrets.TEMPLATE_ID,
+      //     form.current,
+      //     secrets.PUBLIC_KEY
+      //   )
+      axios.post("https://creativa.academy/backend/api/enquiry", enroll).then(
+        (result) => {
+          toast.success("Successfully Sent");
+          setIsLoading(false);
+          console.log(result.text);
+          setEnrollment(formSchema);
+          setValidationError(formSchema);
+          props.onHide();
+        },
+        (error) => {
+          toast.error("Something went wrong please try again later", {
+            position: toast.POSITION.TOP_CENTER,
+          });
+          setIsLoading(false);
+          console.log(error.text);
+        }
+      );
     }
   };
 
