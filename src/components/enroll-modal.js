@@ -10,13 +10,6 @@ import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const formSchema = {
-  name: "",
-  email: "",
-  mobileNumber: "",
-  type: "ENROLL",
-};
-
 // const secrets = {
 //   SERVICE_ID: "service_kgoqz33",
 //   TEMPLATE_ID: "template_sfhgaf8",
@@ -25,14 +18,32 @@ const formSchema = {
 
 const EnrollModal = (props) => {
   const form = useRef();
-  const [enroll, setEnrollment] = useState(formSchema);
-  const [validationError, setValidationError] = useState(formSchema);
+  const [enroll, setEnrollment] = useState({
+    name: "",
+    email: "",
+    mobileNumber: "",
+    type: props.syllabus ? "ACADEMY" : "ENROLL",
+  });
+  const [validationError, setValidationError] = useState({
+    name: "",
+    email: "",
+    mobileNumber: "",
+    type: "",
+  });
   const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
-    setEnrollment(formSchema);
-    setValidationError(formSchema);
-  }, [props]);
+    setEnrollment((prevState) => ({
+      ...prevState,
+      type: props.syllabus ? "ACADEMY" : "ENROLL",
+    }));
+    setValidationError({
+      name: "",
+      email: "",
+      mobileNumber: "",
+      type: "",
+    });
+  }, [props.syllabus]);
 
   const handleForm = (e) => {
     setIsLoading(true);
@@ -56,8 +67,16 @@ const EnrollModal = (props) => {
           toast.success("Successfully Sent");
           setIsLoading(false);
           console.log(result.text);
-          setEnrollment(formSchema);
-          setValidationError(formSchema);
+          setEnrollment((prevState) => ({
+            ...prevState,
+            type: props.syllabus ? "ACADEMY" : "ENROLL",
+          }));
+          setValidationError({
+            name: "",
+            email: "",
+            mobileNumber: "",
+            type: "",
+          });
           props.onHide();
         },
         (error) => {
