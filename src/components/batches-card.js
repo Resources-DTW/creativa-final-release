@@ -15,133 +15,7 @@ const BatchesCard = () => {
         <Row>
           <Col>
             <div className="calendar-card">
-              <h1 className="date">01</h1>
-              <span className="month">February</span>
-            </div>
-          </Col>
-          <Col xl={10} lg={10} className="d-flex align-items-center">
-            <Row>
-              <Col xl={5} lg={12} className="d-flex align-items-center">
-                <h1 className="title">UX UI Design Course Program</h1>
-              </Col>
-
-              <Col xl={{ span: 6, offset: 1 }} lg={12}>
-                <Row>
-                  <Col md={6}>
-                    <p className="course-list mt-0 mb-3">
-                      <img src={calendar} alt="clock" />
-                      <span className="ms-3">3 Months</span>
-                    </p>
-                  </Col>
-                  <Col md={6}>
-                    <p className="course-list mt-0 mb-3">
-                      <img src={languages} alt="languages" className="lang" />
-                      <span className="ms-3">Tamil & English</span>
-                    </p>
-                  </Col>
-                  <Col md={6}>
-                    <p className="course-list mt-0 mb-3">
-                      <img src={clock} alt="clock" />
-                      <span className="ms-3">10:00 AM - 1:00 PM</span>
-                    </p>
-                  </Col>
-                  <Col md={6}>
-                    <p className="course-list mt-0 mb-3">
-                      <img src={user} alt="user" />
-                      <span className="ms-3">Slots Left - 05</span>
-                    </p>
-                  </Col>
-
-                  <Col md={6}>
-                    <p className="course-list mt-0 mb-3">
-                      <img src={location} alt="location" />
-                      <span className="ms-3">T.Nagar, Chennai</span>
-                    </p>
-                  </Col>
-
-                  <Col md={6}>
-                    <p className="course-list mt-0 mb-md-0">
-                      <img src={moniter} alt="Mode-of-course" />
-                      <span className="ms-3">Offline</span>
-                    </p>
-                  </Col>
-                </Row>
-              </Col>
-            </Row>
-          </Col>
-        </Row>
-      </div>
-      {/* Card end */}
-
-      {/* Card Start  */}
-      <div className="upcoming-batches-card">
-        <Row>
-          <Col>
-            <div className="calendar-card">
-              <h1 className="date">15</h1>
-              <span className="month">February</span>
-            </div>
-          </Col>
-          <Col xl={10} lg={10} className="d-flex align-items-center">
-            <Row>
-              <Col xl={5} lg={12} className="d-flex align-items-center">
-                <h1 className="title">UX UI Design Course Program</h1>
-              </Col>
-
-              <Col xl={{ span: 6, offset: 1 }} lg={12}>
-                <Row>
-                  <Col md={6}>
-                    <p className="course-list mt-0 mb-3">
-                      <img src={calendar} alt="clock" />
-                      <span className="ms-3">3 Months</span>
-                    </p>
-                  </Col>
-                  <Col md={6}>
-                    <p className="course-list mt-0 mb-3">
-                      <img src={languages} alt="languages" className="lang" />
-                      <span className="ms-3">Tamil & English</span>
-                    </p>
-                  </Col>
-                  <Col md={6}>
-                    <p className="course-list mt-0 mb-3">
-                      <img src={clock} alt="clock" />
-                      <span className="ms-3">10:00 AM - 1:00 PM</span>
-                    </p>
-                  </Col>
-                  <Col md={6}>
-                    <p className="course-list mt-0 mb-3">
-                      <img src={user} alt="user" />
-                      <span className="ms-3">Slots Left - 05</span>
-                    </p>
-                  </Col>
-
-                  <Col md={6}>
-                    <p className="course-list mt-0 mb-3">
-                      <img src={location} alt="location" />
-                      <span className="ms-3">T.Nagar, Chennai</span>
-                    </p>
-                  </Col>
-
-                  <Col md={6}>
-                    <p className="course-list mt-0 mb-md-0">
-                      <img src={moniter} alt="Mode-of-course" />
-                      <span className="ms-3">Offline</span>
-                    </p>
-                  </Col>
-                </Row>
-              </Col>
-            </Row>
-          </Col>
-        </Row>
-      </div>
-      {/* Card end */}
-
-      {/* Card Start  */}
-      <div className="upcoming-batches-card">
-        <Row>
-          <Col>
-            <div className="calendar-card">
-              <h1 className="date">01</h1>
+              <h1 className="date">03</h1>
               <span className="month">March</span>
             </div>
           </Col>
@@ -204,7 +78,195 @@ const BatchesCard = () => {
         <Row>
           <Col>
             <div className="calendar-card">
-              <h1 className="date">15</h1>
+              <h1 className="date">10</h1>
+              <span className="month">March</span>
+            </div>
+          </Col>
+          <Col xl={10} lg={10} className="d-flex align-items-center">
+            <Row>
+              <Col xl={5} lg={12} className="d-flex align-items-center">
+                <h1 className="title">UX UI Design Course Program</h1>
+              </Col>
+
+              <Col xl={{ span: 6, offset: 1 }} lg={12}>
+                <Row>
+                  <Col md={6}>
+                    <p className="course-list mt-0 mb-3">
+                      <img src={calendar} alt="clock" />
+                      <span className="ms-3">3 Months</span>
+                    </p>
+                  </Col>
+                  <Col md={6}>
+                    <p className="course-list mt-0 mb-3">
+                      <img src={languages} alt="languages" className="lang" />
+                      <span className="ms-3">Tamil & English</span>
+                    </p>
+                  </Col>
+                  <Col md={6}>
+                    <p className="course-list mt-0 mb-3">
+                      <img src={clock} alt="clock" />
+                      <span className="ms-3">10:00 AM - 1:00 PM</span>
+                    </p>
+                  </Col>
+                  <Col md={6}>
+                    <p className="course-list mt-0 mb-3">
+                      <img src={user} alt="user" />
+                      <span className="ms-3">Slots Left - 05</span>
+                    </p>
+                  </Col>
+
+                  <Col md={6}>
+                    <p className="course-list mt-0 mb-3">
+                      <img src={location} alt="location" />
+                      <span className="ms-3">T.Nagar, Chennai</span>
+                    </p>
+                  </Col>
+
+                  <Col md={6}>
+                    <p className="course-list mt-0 mb-md-0">
+                      <img src={moniter} alt="Mode-of-course" />
+                      <span className="ms-3">Offline</span>
+                    </p>
+                  </Col>
+                </Row>
+              </Col>
+            </Row>
+          </Col>
+        </Row>
+      </div>
+      {/* Card end */}
+
+      {/* Card Start  */}
+      <div className="upcoming-batches-card">
+        <Row>
+          <Col>
+            <div className="calendar-card">
+              <h1 className="date">17</h1>
+              <span className="month">March</span>
+            </div>
+          </Col>
+          <Col xl={10} lg={10} className="d-flex align-items-center">
+            <Row>
+              <Col xl={5} lg={12} className="d-flex align-items-center">
+                <h1 className="title">UX UI Design Course Program</h1>
+              </Col>
+
+              <Col xl={{ span: 6, offset: 1 }} lg={12}>
+                <Row>
+                  <Col md={6}>
+                    <p className="course-list mt-0 mb-3">
+                      <img src={calendar} alt="clock" />
+                      <span className="ms-3">3 Months</span>
+                    </p>
+                  </Col>
+                  <Col md={6}>
+                    <p className="course-list mt-0 mb-3">
+                      <img src={languages} alt="languages" className="lang" />
+                      <span className="ms-3">Tamil & English</span>
+                    </p>
+                  </Col>
+                  <Col md={6}>
+                    <p className="course-list mt-0 mb-3">
+                      <img src={clock} alt="clock" />
+                      <span className="ms-3">10:00 AM - 1:00 PM</span>
+                    </p>
+                  </Col>
+                  <Col md={6}>
+                    <p className="course-list mt-0 mb-3">
+                      <img src={user} alt="user" />
+                      <span className="ms-3">Slots Left - 05</span>
+                    </p>
+                  </Col>
+
+                  <Col md={6}>
+                    <p className="course-list mt-0 mb-3">
+                      <img src={location} alt="location" />
+                      <span className="ms-3">T.Nagar, Chennai</span>
+                    </p>
+                  </Col>
+
+                  <Col md={6}>
+                    <p className="course-list mt-0 mb-md-0">
+                      <img src={moniter} alt="Mode-of-course" />
+                      <span className="ms-3">Offline</span>
+                    </p>
+                  </Col>
+                </Row>
+              </Col>
+            </Row>
+          </Col>
+        </Row>
+      </div>
+      {/* Card end */}
+
+      {/* Card Start  */}
+      <div className="upcoming-batches-card">
+        <Row>
+          <Col>
+            <div className="calendar-card">
+              <h1 className="date">24</h1>
+              <span className="month">March</span>
+            </div>
+          </Col>
+          <Col xl={10} lg={10} className="d-flex align-items-center">
+            <Row>
+              <Col xl={5} lg={12} className="d-flex align-items-center">
+                <h1 className="title">UX UI Design Course Program</h1>
+              </Col>
+
+              <Col xl={{ span: 6, offset: 1 }} lg={12}>
+                <Row>
+                  <Col md={6}>
+                    <p className="course-list mt-0 mb-3">
+                      <img src={calendar} alt="clock" />
+                      <span className="ms-3">3 Months</span>
+                    </p>
+                  </Col>
+                  <Col md={6}>
+                    <p className="course-list mt-0 mb-3">
+                      <img src={languages} alt="languages" className="lang" />
+                      <span className="ms-3">Tamil & English</span>
+                    </p>
+                  </Col>
+                  <Col md={6}>
+                    <p className="course-list mt-0 mb-3">
+                      <img src={clock} alt="clock" />
+                      <span className="ms-3">10:00 AM - 1:00 PM</span>
+                    </p>
+                  </Col>
+                  <Col md={6}>
+                    <p className="course-list mt-0 mb-3">
+                      <img src={user} alt="user" />
+                      <span className="ms-3">Slots Left - 05</span>
+                    </p>
+                  </Col>
+
+                  <Col md={6}>
+                    <p className="course-list mt-0 mb-3">
+                      <img src={location} alt="location" />
+                      <span className="ms-3">T.Nagar, Chennai</span>
+                    </p>
+                  </Col>
+
+                  <Col md={6}>
+                    <p className="course-list mt-0 mb-md-0">
+                      <img src={moniter} alt="Mode-of-course" />
+                      <span className="ms-3">Offline</span>
+                    </p>
+                  </Col>
+                </Row>
+              </Col>
+            </Row>
+          </Col>
+        </Row>
+      </div>
+      {/* Card end */}
+      {/* Card Start  */}
+      <div className="upcoming-batches-card">
+        <Row>
+          <Col>
+            <div className="calendar-card">
+              <h1 className="date">31</h1>
               <span className="month">March</span>
             </div>
           </Col>
